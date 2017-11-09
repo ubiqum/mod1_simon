@@ -1,96 +1,3 @@
-.wrapper {
-  width: 1000px;
-  margin: 30px auto;
-  /*background: #d3d3d3;*/
-}
-
-.wrapper .img-wrapper {
-  float: left;
-  width: 300px;
-  text-align: center;
-}
-
-.content {
-  padding-left: 30px;
-  display: inline-block;
-}
-.content ul {
-  padding: 0;
-  margin: 0;
-}
-
-.logo {
-  width: 150px;
-  height: auto;
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-nav ul {
-  list-style-type: none;
-}
-
-nav li {
-  display: inline-block;
-}
-
-nav li a {
-  text-decoration: none;
-}
-
-article ul {
-  list-style-type: none;
-}
-
-article ul li {
-  border-bottom: 1px dotted #d3d3d3;
-}
-
-article h2 {
-  margin: 0;
-  padding: 0;
-}
-
-nav li::after {
-  content: " | ";
-}
-nav ul li:last-child:after {
-  content: none;
-}
-
-.active-link {
-  border-bottom: 2px solid #d3d3d3;  
-  padding-bottom: 5px;
-}
-.match-date {
-  font-style: italic;
-}
-
-
-
-
-
-
-
-
-/*================================================
-
-
- * EVERYTHING BELOW HERE IS PART OF NORMALIZE *
-
- * EVERYTHING BELOW HERE IS PART OF NORMALIZE *
-
- * EVERYTHING BELOW HERE IS PART OF NORMALIZE *
-
-
-
-================================================*/
-
-
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -538,3 +445,102 @@ template {
 [hidden] {
   display: none;
 }
+
+/*================================================
+
+
+ * EVERYTHING BELOW HERE IS PART OF NORMALIZE *
+
+ * EVERYTHING BELOW HERE IS PART OF NORMALIZE *
+
+ * EVERYTHING BELOW HERE IS PART OF NORMALIZE *
+
+
+
+================================================*/
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+article ul {
+  list-style-type: none;
+}
+
+article ul li {
+  border-bottom: 1px dotted #d3d3d3;
+}
+
+article h2 {
+  margin: 0;
+  padding: 0;
+}
+
+nav li::after {
+  content: " | ";
+}
+nav ul li:last-child:after {
+  content: none;
+}
+
+/* COLUMN AND CONTAINERS */
+
+  .wrapper {
+    width: 1000px;
+    margin: 30px auto;
+    /*background: #d3d3d3;*/
+  }
+  .wrapper::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+
+  .wrapper .img-wrapper {
+    float: left;
+    width: 300px;
+    text-align: center;
+  }
+
+  .content {
+    padding-left: 30px;
+    display: inline-block;
+    width: 60%;
+  }
+  .content ul {
+    padding: 0;
+    margin: 0;
+  }
+
+/* LOGO */
+
+  #logo-link {
+    display: inline-block;
+    width: 150px;
+  }
+
+  #logo-link img { 
+    width: 100%;
+  }
+
+/* NAVIGATION BAR */
+
+  .active-link {
+    border-bottom: 2px solid #d3d3d3;  
+    padding-bottom: 5px;
+  }
+
+/* MAIN CONTENT STYLING */
+
+.match-date {
+  font-style: italic;
+}
+
