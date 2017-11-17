@@ -31,7 +31,7 @@ html {
 
 body {
     margin: 0;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 
@@ -574,7 +574,7 @@ article ul li {
     border-bottom: 1px dotted #d3d3d3;
 }
 
-article h2 {
+h2 {
     margin: 0;
     padding: 0;
 }
@@ -606,6 +606,11 @@ nav ul li:last-child:after {
     float: left;
     width: 300px;
     text-align: center;
+}
+
+.adverts {
+    width: 200px;
+    height: 1000px;
 }
 
 .content {
@@ -742,3 +747,41 @@ table.t01 th {
   list-style-type: decimal;
 }
 
+/*.content div {
+  text-align: justify;
+}*/
+
+/* FORM STYLES */
+
+.flex-container {
+    display: flex;
+}
+.col-flex {
+    flex-direction: column;
+}
+.input-field {
+    margin: 0 10px;
+}
+.flex-container .input-field label {
+    display: inline-block;
+    width: 120px;
+}
+
+.flex-container2 {
+    flex-direction: column;
+}
+.school-box {
+    width: 50%;
+}
+.school-box div label {
+    width: 49%;
+    display: inline-block;
+}
+.signature {
+    display: flex;
+    flex-direction: column;
+}
+
+.school-box p {
+    font-weight: bold;
+}
